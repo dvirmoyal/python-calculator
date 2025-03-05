@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from app.models.operation import OperationRequest, OperationResponse, ErrorResponse
+from ..models.operation import OperationRequest, OperationResponse, ErrorResponse
 import logging
-
 # הגדרת לוגר
 logger = logging.getLogger("addition-service.operations")
 

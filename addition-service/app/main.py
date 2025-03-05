@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import logging
-from app.routers.operations import router as operations_router
+from .routers.operations import router as operations_router
 
 # קונפיגורציית לוגים
 logging.basicConfig(
